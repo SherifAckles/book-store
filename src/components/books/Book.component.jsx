@@ -7,10 +7,7 @@ import "./books.css";
 const Book = ({ imgUrl, title, description, price }) => {
   return (
     <Col lg={3} md={6} className="books--container">
-      <Card
-        className=" bg-success text-white rounded-lg  text-center  "
-        
-      >
+      <Card className=" bg-success text-white rounded-lg  text-center  ">
         <Card.Img
           variant="top"
           src={imgUrl}
@@ -23,9 +20,9 @@ const Book = ({ imgUrl, title, description, price }) => {
         <Card.Body>
           <Card.Title>{title} </Card.Title>
           <Card.Text>{description}</Card.Text>
-          <div className="mx-5 mt-4">
-            <span className=" ">Buy Now</span>
-            <Button className="mt-2" variant="light">
+          <div className="mx-1 mt-4">
+            <span className="me-5 ">Buy Now</span>
+            <Button className="" variant="light">
               {price}
             </Button>
           </div>
