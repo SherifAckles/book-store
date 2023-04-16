@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <NavTop />
-      <BookList books= {books} />
+      <BookList  books= {books} />
     </div>
   );
 }

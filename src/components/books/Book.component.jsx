@@ -6,19 +6,28 @@ import "./books.css";
 
 const Book = ({ imgUrl, title, description, price }) => {
   return (
-    <Col md={4}>
+    <Col>
       <Card
-        className=" bg-success text-white rounded-lg card"
-        style={{width:'18rem' }}
+        className=" bg-success text-white rounded-lg card text-center p-3 "
+        style={{ width: "18rem" }}
       >
-        <Card.Img variant="top" src={imgUrl} />
+        <Card.Img
+          variant="top"
+          src={imgUrl}
+          style={{
+            width: "254px",
+            height: "254px",
+          }}
+        />
         <Card.Body>
           <Card.Title>{title} </Card.Title>
           <Card.Text>{description}</Card.Text>
-          <Button className="mt-1" variant="light">
-            {price}
-          </Button>
-          <span className="ms-5 ">Buy Now</span>
+          <div className="mx-5 mt-4">
+            <span className=" ">Buy Now</span>
+            <Button className="mt-2" variant="light">
+              {price}
+            </Button>
+          </div>
         </Card.Body>
       </Card>
     </Col>
