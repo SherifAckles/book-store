@@ -4,9 +4,9 @@ import BookList from './components/books/BookList.component'
 import {books} from './books'
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <NavTop />
-      <BookList books= {books} />
+      <BookList  books= {books} />
     </div>
   );
 }

@@ -3,13 +3,12 @@ import Book from './Book.component'
 import Row from "react-bootstrap/Row";
 const BookList = ({books}) => {
   return (
-     <Row>
+    <Row className=" ">
       {books.map((book) => (
         <Book key={book.id} {...book} />
       ))}
-     
-     </Row>
-  )
+    </Row>
+  );
 }
 
 export default BookList

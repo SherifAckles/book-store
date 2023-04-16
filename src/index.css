@@ -1,0 +1,12 @@
+html{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+
+.books--container{
+   margin: 2rem auto !important;
+   padding: 2rem;
+   
+}
