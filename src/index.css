@@ -6,5 +6,7 @@ html{
 
 
 .books--container{
-    padding: 7% 15% !important;
+   margin: 2rem auto !important;
+   padding: 2rem;
+   
 }

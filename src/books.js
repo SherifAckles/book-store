@@ -53,4 +53,22 @@ export const books = [
       "Twenty Thousand Fleas Under the Sea: A Graphic Novel (Dog Man #11): From the Creator of Captain Underpants.",
     price: "$9.99", // in USD
   },
+  {
+    id: 7,
+    imgUrl:
+      "https://images-na.ssl-images-amazon.com/images/I/91p0c7mYcGL._AC_UL127_SR127,127_.jpg",
+    title: "Dog Man",
+    description:
+      "Twenty Thousand Fleas Under the Sea: A Graphic Novel (Dog Man #11): From the Creator of Captain Underpants.",
+    price: "$9.99", // in USD
+  },
+  {
+    id: 8,
+    imgUrl:
+      "https://images-na.ssl-images-amazon.com/images/I/91p0c7mYcGL._AC_UL127_SR127,127_.jpg",
+    title: "Dog Man",
+    description:
+      "Twenty Thousand Fleas Under the Sea: A Graphic Novel (Dog Man #11): From the Creator of Captain Underpants.",
+    price: "$9.99", // in USD
+  },
 ];

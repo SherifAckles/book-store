@@ -3,7 +3,7 @@ import Book from './Book.component'
 import Row from "react-bootstrap/Row";
 const BookList = ({books}) => {
   return (
-    <Row className=" books--container gap-4">
+    <Row className=" ">
       {books.map((book) => (
         <Book key={book.id} {...book} />
       ))}

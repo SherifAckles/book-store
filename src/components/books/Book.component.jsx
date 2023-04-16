@@ -6,10 +6,10 @@ import "./books.css";
 
 const Book = ({ imgUrl, title, description, price }) => {
   return (
-    <Col>
+    <Col lg={3} md={6} className="books--container">
       <Card
-        className=" bg-success text-white rounded-lg card text-center p-3 "
-        style={{ width: "18rem" }}
+        className=" bg-success text-white rounded-lg  text-center  "
+        
       >
         <Card.Img
           variant="top"
@@ -17,6 +17,7 @@ const Book = ({ imgUrl, title, description, price }) => {
           style={{
             width: "254px",
             height: "254px",
+            margin: "0 auto",
           }}
         />
         <Card.Body>
